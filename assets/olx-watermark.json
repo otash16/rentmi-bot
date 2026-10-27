@@ -1,0 +1,38 @@
+{
+  "note": "OLX watermark alpha shablonlari (oq rang). out = S*K[c] + (1 - S*alpha)*orig; alpha=0.207, K = alpha*Wc per RGB (Wc≈255/252/247). rentmi parsed_ rasmlaridan statistik hisoblangan.",
+  "alpha": 0.207,
+  "templates": [
+    {
+      "file": "olx-393.png",
+      "refWidth": 393,
+      "width": 78,
+      "height": 32,
+      "right": 11,
+      "bottom": 10,
+      "samples": 80
+    },
+    {
+      "file": "olx-525.png",
+      "refWidth": 525,
+      "width": 104,
+      "height": 42,
+      "right": 12,
+      "bottom": 10,
+      "samples": 209
+    },
+    {
+      "file": "olx-933.png",
+      "refWidth": 933,
+      "width": 181,
+      "height": 71,
+      "right": 15,
+      "bottom": 12,
+      "samples": 86
+    }
+  ],
+  "k": [
+    52.7,
+    51.9,
+    50.1
+  ]
+}

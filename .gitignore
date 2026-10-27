@@ -1,0 +1,10 @@
+node_modules
+.env
+
+# Ish fayllari (lokal holat, loglar, ma'lumotlar)
+drafts.json
+bulk-posted.json
+signature-scan.json
+*.log
+*.csv
+.DS_Store

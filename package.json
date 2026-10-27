@@ -1,0 +1,20 @@
+{
+  "name": "rentmi-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Rentmi e'lon linkidan Telegram kanal uchun post tayyorlovchi bot",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js",
+    "preview": "node src/preview.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "grammy": "^1.46.0",
+    "sharp": "^0.35.5"
+  }
+}
